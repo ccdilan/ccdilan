@@ -1,0 +1,10 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="120" y1="40" x2="1080" y2="320"><stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#C084FC"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="4" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="360" rx="24" fill="#080B11"/>
+<g stroke="url(#g)" stroke-opacity=".5" stroke-width="1.5"><path d="M120 180H1080"/><path d="M220 80L390 180L220 280"/><path d="M390 180H590L760 80"/><path d="M590 180L760 280"/><path d="M760 80L980 180L760 280"/></g>
+<g fill="#0E1625" stroke="url(#g)" stroke-width="2">
+<rect x="70" y="145" width="100" height="70" rx="16"/><rect x="335" y="145" width="110" height="70" rx="16"/><rect x="535" y="145" width="110" height="70" rx="16"/><rect x="705" y="45" width="110" height="70" rx="16"/><rect x="705" y="245" width="110" height="70" rx="16"/><rect x="930" y="145" width="110" height="70" rx="16"/>
+</g>
+<g font-family="Inter,Arial,sans-serif" text-anchor="middle"><g fill="#E5EEF9" font-size="15" font-weight="700"><text x="120" y="186">PRODUCTS</text><text x="390" y="186">APIs</text><text x="590" y="186">SERVICES</text><text x="760" y="86">AI / DATA</text><text x="760" y="286">CLOUD</text><text x="985" y="186">USERS</text></g><g fill="#718096" font-size="11"><text x="120" y="202">web · mobile</text><text x="390" y="202">REST · events</text><text x="590" y="202">business logic</text><text x="760" y="102">knowledge · models</text><text x="760" y="302">deploy · observe</text><text x="985" y="202">people</text></g></g>
+<g filter="url(#b)"><circle cx="170" cy="180" r="3" fill="#38BDF8"><animate attributeName="cx" values="170;335;535;705;930" dur="4s" repeatCount="indefinite"/></circle></g>
+</svg>
