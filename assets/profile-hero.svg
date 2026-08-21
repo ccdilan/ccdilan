@@ -1,0 +1,26 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop stop-color="#17233B"/><stop offset=".55" stop-color="#0B0E14"/><stop offset="1" stop-color="#050609"/></radialGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6EE7FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+ <linearGradient id="text" x1="260" y1="80" x2="920" y2="320"><stop stop-color="#FFFFFF"/><stop offset=".5" stop-color="#D8E6FF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#8EA2C6" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+<g opacity=".55" filter="url(#glow)">
+ <circle cx="130" cy="75" r="2.5" fill="#6EE7FF"/><circle cx="1030" cy="95" r="2" fill="#A78BFA"/><circle cx="1080" cy="330" r="3" fill="#6EE7FF"/><circle cx="180" cy="350" r="2" fill="#A78BFA"/>
+</g>
+<g opacity=".8" stroke="url(#line)" stroke-width="1.4">
+ <path d="M90 310L235 205L350 285L495 130L650 220L785 105L940 190L1110 100" stroke-dasharray="4 10"/>
+ <path d="M160 125L305 205L430 105L585 175L710 95L875 250L1040 205" stroke-dasharray="2 12" opacity=".55"/>
+</g>
+<g fill="#0E1522" stroke="url(#line)" stroke-width="2">
+ <circle cx="235" cy="205" r="9"/><circle cx="350" cy="285" r="7"/><circle cx="495" cy="130" r="10"/><circle cx="650" cy="220" r="8"/><circle cx="785" cy="105" r="9"/><circle cx="940" cy="190" r="7"/>
+</g>
+<g filter="url(#glow)"><circle cx="650" cy="220" r="4" fill="#6EE7FF"/><circle cx="495" cy="130" r="4" fill="#A78BFA"/></g>
+<text x="600" y="155" text-anchor="middle" fill="url(#text)" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="5">CHINTHAKA DILAN</text>
+<text x="600" y="205" text-anchor="middle" fill="#AAB7CC" font-family="Inter,Arial,sans-serif" font-size="19" letter-spacing="4">SOFTWARE ENGINEER  ·  TECHNICAL LEAD  ·  PRODUCT BUILDER</text>
+<text x="600" y="252" text-anchor="middle" fill="#718096" font-family="JetBrains Mono,monospace" font-size="15">building products · designing systems · shipping software</text>
+<g transform="translate(505 290)"><rect width="190" height="44" rx="22" fill="#101827" stroke="#334155"/><circle cx="24" cy="22" r="6" fill="#6EE7FF"/><text x="42" y="28" fill="#D7E3F4" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">ENGINEERING / ONLINE</text></g>
+</svg>
