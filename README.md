@@ -18,7 +18,7 @@
 
 ## About
 
-**Technical Lead and hands-on software engineer with 9+ years of experience** building Laravel/PHP platforms, Node.js/AWS serverless systems, APIs, web applications and cross-platform mobile products. I work across architecture, delivery, cloud infrastructure, code quality, release management and mentoring while staying close to production code. fileciteturn12file0L16-L21
+**Technical Lead and hands-on software engineer with 9+ years of experience** building Laravel/PHP platforms, Node.js/AWS serverless systems, APIs, web applications and cross-platform mobile products. I work across architecture, delivery, cloud infrastructure, code quality, release management and mentoring while staying close to production code.
 
 <table>
 <tr>
@@ -94,8 +94,6 @@
 | **Engineering** | TDD · SOLID · Repository Pattern · Lucid Architecture · Code Review · Agile/Scrum · Mentoring |
 | **AI-assisted Development** | OpenAI Codex · Cursor · Claude Code · Google Antigravity · RAG / Agentic AI exploration |
 
-Your supplied CV confirms this broader backend, cloud, data, web/mobile and engineering-practice stack. fileciteturn12file0L94-L104
-
 <img src="./assets/section-divider.svg" width="100%" alt="" />
 
 ## Career Timeline
@@ -111,7 +109,7 @@ Your supplied CV confirms this broader backend, cloud, data, web/mobile and engi
 - Owned backend delivery for a platform serving **1M+ users**.
 - Worked with Laravel 13, PHP, MySQL, AWS Lambda, Node.js and Python.
 - Reduced AWS operating costs and introduced PR quality gates and SonarQube analysis.
-- Built Power BI reports for business and product insights. fileciteturn12file0L37-L47
+- Built Power BI reports for business and product insights.
 
 ### Adventus.io — Associate Technical Lead / Senior Software Engineer
 **Sep 2021 – Oct 2023 · Education / recruitment platform**
@@ -120,7 +118,7 @@ Your supplied CV confirms this broader backend, cloud, data, web/mobile and engi
 - Led sprint planning and delivery within an 8-person engineering team and mentored 5 engineers.
 - Architected and delivered **5+ Node.js / TypeScript AWS Lambda microservices**.
 - Worked with Terraform-managed infrastructure, CI/CD, Laravel, REST/GraphQL APIs and multi-tenancy.
-- Strengthened engineering standards with TDD, SOLID, Repository Pattern and Lucid Architecture; received an Employee of the Month award. fileciteturn12file0L48-L59
+- Strengthened engineering standards with TDD, SOLID, Repository Pattern and Lucid Architecture; received an Employee of the Month award.
 
 ### Earlier Engineering Experience
 
@@ -130,8 +128,6 @@ Your supplied CV confirms this broader backend, cloud, data, web/mobile and engi
 | **2018 – 2019** | **CreateIT Solutions** | Associate SE → Software Engineer — Laravel · AWS EC2 · Linux · Vue · REST APIs |
 | **2017 – 2018** | **Cybertech International** | Laravel Web Developer |
 | **2017 – 2018** | **Sublime IT Solutions** | Web Developer — PHP |
-
-These roles and responsibilities are documented in the CV you previously supplied. fileciteturn12file0L63-L83
 
 <img src="./assets/section-divider.svg" width="100%" alt="" />
 
@@ -143,7 +139,7 @@ These roles and responsibilities are documented in the CV you previously supplie
 
 ### 💎 Gemora.io
 
-Laravel marketplace and live-auction platform for natural gemstones and fine jewellery, including seller onboarding, listings, live bidding, automated winner selection and completion workflows. fileciteturn12file0L84-L88
+Laravel marketplace and live-auction platform for natural gemstones and fine jewellery, including seller onboarding, listings, live bidding, automated winner selection and completion workflows.
 
 `Laravel` `MySQL` `Marketplace` `Auctions`
 
@@ -182,8 +178,8 @@ Messaging platform focused on API-driven SMS and WhatsApp workflows.
 
 ### Mobile & Open Source
 
-- Built React Native / Expo applications using Supabase and Firebase and managed production releases to the **Apple App Store and Google Play**. fileciteturn12file0L89-L91
-- Stack Overflow contributor with **598k people reached and 25 answers**. fileciteturn12file0L92-L93
+- Built React Native / Expo applications using Supabase and Firebase and managed production releases to the **Apple App Store and Google Play**.
+- Stack Overflow contributor with **598k people reached and 25 answers**.
 - Maintains React Native Bluetooth ESC/POS tooling on GitHub.
 
 <img src="./assets/section-divider.svg" width="100%" alt="" />
@@ -206,8 +202,6 @@ Messaging platform focused on API-driven SMS and WhatsApp workflows.
 </td>
 </tr>
 </table>
-
-Both qualifications are listed in the current CV. fileciteturn12file0L105-L107
 
 <img src="./assets/section-divider.svg" width="100%" alt="" />
 
