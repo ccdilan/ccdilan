@@ -1,6 +1,11 @@
 name: Generate 3D contribution graph
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/3d-contribution.yml"
   schedule:
     - cron: "30 2 * * 0"
   workflow_dispatch:
