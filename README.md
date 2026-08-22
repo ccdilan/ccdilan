@@ -168,16 +168,16 @@ graph LR
 
 <div align="center">
 
-<img height="182" src="https://github-readme-stats.vercel.app/api?username=ccdilan&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=percentile&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1&icon_color=22D3EE" alt="GitHub statistics" />
-<img height="182" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ccdilan&layout=compact&hide_border=true&langs_count=8&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1" alt="Top languages" />
+<a href="https://github.com/ccdilan">
+  <img height="182" src="https://github-readme-stats.vercel.app/api?username=ccdilan&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=percentile&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1&icon_color=22D3EE" alt="GitHub statistics" />
+</a>
+<a href="https://github.com/ccdilan">
+  <img height="182" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ccdilan&layout=compact&hide_border=true&langs_count=8&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1" alt="Top languages" />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ccdilan&hide_border=true&background=0B1020&ring=8B5CF6&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=CBD5E1&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub contribution streak" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=ccdilan&theme=onestar&no-frame=true&no-bg=true&margin-w=10&column=6" width="100%" alt="GitHub trophies" />
+<img src="https://streak-stats.demolab.com?user=ccdilan&hide_border=true&background=0B1020&ring=8B5CF6&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=CBD5E1&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub contribution streak" />
 
 </div>
 
@@ -187,11 +187,11 @@ graph LR
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ccdilan&bg_color=0B1020&color=A78BFA&line=22D3EE&point=F8FAFC&area=true&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="GitHub contribution activity graph" />
+<img src="./assets/contribution-signal.svg" width="100%" alt="Animated contribution signal visualization" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/ccdilan/ccdilan/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake" />
+<a href="https://github.com/ccdilan?tab=overview"><img src="https://img.shields.io/badge/VIEW_LIVE_CONTRIBUTIONS-0B1020?style=for-the-badge&logo=github&logoColor=22D3EE" alt="View live GitHub contributions" /></a>
 
 </div>
 
@@ -201,7 +201,9 @@ graph LR
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ccdilan/ccdilan/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution graph" />
+<img src="./assets/contribution-3d.svg" width="100%" alt="Animated isometric 3D contribution visualization" />
+
+<sub>Self-contained SVG animation — no generated branch required.</sub>
 
 </div>
 
