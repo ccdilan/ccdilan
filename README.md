@@ -79,24 +79,32 @@ Pet-product ecosystem with profiles, reminders, directories, marketplace concept
 
 <div align="center">
 
-<img height="178" src="https://github-readme-stats.vercel.app/api?username=ccdilan&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=percentile&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1&icon_color=22D3EE" alt="GitHub statistics" />
-<img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ccdilan&layout=compact&hide_border=true&langs_count=8&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1" alt="Top languages" />
-
-</div>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ccdilan&theme=github_dark" width="100%" alt="GitHub contribution profile summary" />
 
 <br/>
 
-<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ccdilan&theme=github_dark" width="49%" alt="GitHub statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ccdilan&theme=github_dark" width="49%" alt="Most used languages by repository" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=ccdilan&theme=github-dark-blue&hide_border=true&background=0B1020&ring=8B5CF6&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=CBD5E1&dates=94A3B8" width="70%" alt="GitHub contribution streak" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ccdilan&bg_color=0B1020&color=CBD5E1&line=8B5CF6&point=22D3EE&area=true&hide_border=true" width="100%" alt="GitHub activity graph" />
+
+<br/><br/>
 
 <img src="./assets/contribution-3d.svg" width="100%" alt="Animated isometric contribution visualization" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/ccdilan/ccdilan/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Generated 3D GitHub contribution graph" />
 
 <br/><br/>
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Generated 3D GitHub contribution graph" />
+<img src="https://raw.githubusercontent.com/ccdilan/ccdilan/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
 
 </div>
 
