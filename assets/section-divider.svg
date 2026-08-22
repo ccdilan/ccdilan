@@ -1,1 +1,18 @@
-<svg width="1200" height="90" viewBox="0 0 1200 90" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g"><stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#C084FC"/></linearGradient></defs><path d="M0 45H430" stroke="url(#g)" stroke-opacity=".22"/><path d="M770 45H1200" stroke="url(#g)" stroke-opacity=".22"/><circle cx="600" cy="45" r="8" fill="#0B0E14" stroke="url(#g)" stroke-width="2"/><circle cx="600" cy="45" r="3" fill="#7DD3FC"/><path d="M570 45H630" stroke="#7DD3FC" stroke-opacity=".3" stroke-dasharray="3 6"/></svg>
+<svg width="1200" height="28" viewBox="0 0 1200 28" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g" x1="0" y1="14" x2="1200" y2="14" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE" stop-opacity="0"/>
+    <stop offset=".22" stop-color="#22D3EE" stop-opacity=".75"/>
+    <stop offset=".52" stop-color="#8B5CF6"/>
+    <stop offset=".8" stop-color="#A78BFA" stop-opacity=".75"/>
+    <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+  </linearGradient>
+  <style>
+    .spark { animation: move 6s linear infinite; }
+    @keyframes move { from { transform:translateX(-80px); } to { transform:translateX(1280px); } }
+  </style>
+</defs>
+<path d="M0 14H1200" stroke="url(#g)" stroke-width="1.5"/>
+<circle class="spark" cx="0" cy="14" r="3" fill="#22D3EE"/>
+<circle class="spark" cx="-24" cy="14" r="6" fill="#8B5CF6" opacity=".18"/>
+</svg>

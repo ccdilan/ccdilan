@@ -1,26 +1,108 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
- <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop stop-color="#17233B"/><stop offset=".55" stop-color="#0B0E14"/><stop offset="1" stop-color="#050609"/></radialGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6EE7FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
- <linearGradient id="text" x1="260" y1="80" x2="920" y2="320"><stop stop-color="#FFFFFF"/><stop offset=".5" stop-color="#D8E6FF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#8EA2C6" stroke-opacity=".08"/></pattern>
-</defs>
-<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
-<rect width="1200" height="430" rx="28" fill="url(#grid)"/>
-<g opacity=".55" filter="url(#glow)">
- <circle cx="130" cy="75" r="2.5" fill="#6EE7FF"/><circle cx="1030" cy="95" r="2" fill="#A78BFA"/><circle cx="1080" cy="330" r="3" fill="#6EE7FF"/><circle cx="180" cy="350" r="2" fill="#A78BFA"/>
-</g>
-<g opacity=".8" stroke="url(#line)" stroke-width="1.4">
- <path d="M90 310L235 205L350 285L495 130L650 220L785 105L940 190L1110 100" stroke-dasharray="4 10"/>
- <path d="M160 125L305 205L430 105L585 175L710 95L875 250L1040 205" stroke-dasharray="2 12" opacity=".55"/>
-</g>
-<g fill="#0E1522" stroke="url(#line)" stroke-width="2">
- <circle cx="235" cy="205" r="9"/><circle cx="350" cy="285" r="7"/><circle cx="495" cy="130" r="10"/><circle cx="650" cy="220" r="8"/><circle cx="785" cy="105" r="9"/><circle cx="940" cy="190" r="7"/>
-</g>
-<g filter="url(#glow)"><circle cx="650" cy="220" r="4" fill="#6EE7FF"/><circle cx="495" cy="130" r="4" fill="#A78BFA"/></g>
-<text x="600" y="155" text-anchor="middle" fill="url(#text)" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="5">CHINTHAKA DILAN</text>
-<text x="600" y="205" text-anchor="middle" fill="#AAB7CC" font-family="Inter,Arial,sans-serif" font-size="19" letter-spacing="4">SOFTWARE ENGINEER  ·  TECHNICAL LEAD  ·  PRODUCT BUILDER</text>
-<text x="600" y="252" text-anchor="middle" fill="#718096" font-family="JetBrains Mono,monospace" font-size="15">building products · designing systems · shipping software</text>
-<g transform="translate(505 290)"><rect width="190" height="44" rx="22" fill="#101827" stroke="#334155"/><circle cx="24" cy="22" r="6" fill="#6EE7FF"/><text x="42" y="28" fill="#D7E3F4" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">ENGINEERING / ONLINE</text></g>
+<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.52" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#090A12"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="730" y1="80" x2="1090" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.48" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity=".18"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#7C3AED" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity=".55"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#7C3AED" flood-opacity=".25"/>
+    </filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse" patternTransform="skewX(-10)">
+      <path d="M38 0H0V38" stroke="#8B5CF6" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <style>
+      .dash { stroke-dasharray: 10 18; animation: dash 11s linear infinite; }
+      .float1 { animation: float1 6s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .float2 { animation: float2 8s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .pulse { animation: pulse 3.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .blink { animation: blink 2.2s ease-in-out infinite; }
+      .scan { animation: scan 7s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -112; } }
+      @keyframes float1 { 0%,100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(-12px) rotate(1.5deg); } }
+      @keyframes float2 { 0%,100% { transform: translateY(0px) translateX(0px); } 50% { transform: translateY(10px) translateX(-8px); } }
+      @keyframes pulse { 0%,100% { opacity:.45; transform:scale(.96); } 50% { opacity:1; transform:scale(1.05); } }
+      @keyframes blink { 0%,42%,100% { opacity:1; } 50%,92% { opacity:.2; } }
+      @keyframes scan { 0% { transform: translateX(-220px); opacity:0; } 15% { opacity:.35; } 85% { opacity:.35; } 100% { transform: translateX(1200px); opacity:0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="440" rx="28" fill="url(#grid)"/>
+  <circle cx="955" cy="220" r="260" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="140" cy="35" r="135" fill="#22D3EE" opacity=".05" filter="url(#blur)"/>
+  <rect class="scan" x="0" y="0" width="150" height="440" fill="url(#edge)" opacity=".15"/>
+
+  <g opacity=".75">
+    <circle cx="54" cy="48" r="4" fill="#22D3EE" class="blink"/>
+    <circle cx="73" cy="48" r="4" fill="#8B5CF6"/>
+    <circle cx="92" cy="48" r="4" fill="#C4B5FD" opacity=".55"/>
+    <text x="111" y="53" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">ccdilan / profile.engineering</text>
+  </g>
+
+  <g transform="translate(72 112)">
+    <text x="0" y="0" fill="#8B5CF6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" letter-spacing="3">TECHNICAL LEAD · SOFTWARE ARCHITECT · AI SYSTEMS</text>
+    <text x="0" y="72" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="55" font-weight="800" letter-spacing="-1.6">CHINTHAKA DILAN</text>
+    <text x="0" y="112" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" font-weight="500">I design, build and ship production systems across web, mobile, cloud and AI.</text>
+
+    <g transform="translate(0 154)">
+      <rect width="142" height="34" rx="17" fill="#111827" stroke="#7C3AED" stroke-opacity=".55"/>
+      <circle cx="18" cy="17" r="4" fill="#A78BFA" class="pulse"/>
+      <text x="31" y="22" fill="#DDD6FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">LARAVEL / PHP</text>
+
+      <rect x="154" width="135" height="34" rx="17" fill="#111827" stroke="#22D3EE" stroke-opacity=".45"/>
+      <circle cx="172" cy="17" r="4" fill="#22D3EE" class="pulse"/>
+      <text x="185" y="22" fill="#CFFAFE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">NODE.JS / AWS</text>
+
+      <rect x="301" width="145" height="34" rx="17" fill="#111827" stroke="#8B5CF6" stroke-opacity=".45"/>
+      <circle cx="319" cy="17" r="4" fill="#A78BFA" class="pulse"/>
+      <text x="332" y="22" fill="#EDE9FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">PYTHON / RAG</text>
+
+      <rect x="458" width="142" height="34" rx="17" fill="#111827" stroke="#22D3EE" stroke-opacity=".4"/>
+      <circle cx="476" cy="17" r="4" fill="#67E8F9" class="pulse"/>
+      <text x="489" y="22" fill="#CFFAFE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">AGENTIC AI</text>
+    </g>
+
+    <text x="0" y="245" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">BUILD → OBSERVE → LEARN → IMPROVE</text>
+  </g>
+
+  <g transform="translate(858 98)" filter="url(#shadow)">
+    <g class="float1">
+      <path d="M130 0L260 70L130 140L0 70L130 0Z" fill="#18112D" stroke="url(#violet)" stroke-width="2"/>
+      <path d="M0 70L130 140V286L0 214V70Z" fill="#0D1724" stroke="#22D3EE" stroke-opacity=".55" stroke-width="1.5"/>
+      <path d="M260 70L130 140V286L260 214V70Z" fill="#140D25" stroke="#8B5CF6" stroke-opacity=".7" stroke-width="1.5"/>
+      <path d="M130 36L196 72L130 108L64 72L130 36Z" fill="url(#violet)" opacity=".86"/>
+      <path d="M64 72L130 108V183L64 147V72Z" fill="#164E63" opacity=".55"/>
+      <path d="M196 72L130 108V183L196 147V72Z" fill="#5B21B6" opacity=".68"/>
+      <circle cx="130" cy="72" r="16" fill="#F8FAFC" opacity=".96" class="pulse"/>
+      <circle cx="130" cy="72" r="7" fill="#7C3AED"/>
+      <path d="M130 140V286M0 70L260 214M260 70L0 214" stroke="#A78BFA" stroke-opacity=".18"/>
+    </g>
+
+    <g class="float2">
+      <circle cx="9" cy="18" r="7" fill="#22D3EE"/>
+      <circle cx="252" cy="12" r="6" fill="#A78BFA"/>
+      <circle cx="282" cy="190" r="5" fill="#22D3EE"/>
+      <circle cx="-16" cy="204" r="5" fill="#8B5CF6"/>
+      <path class="dash" d="M9 18C55 -35 214 -36 252 12C298 72 314 145 282 190C232 258 41 268 -16 204C-55 160 -42 70 9 18Z" stroke="url(#violet)" stroke-width="2" fill="none" opacity=".8"/>
+    </g>
+  </g>
+
+  <rect x=".75" y=".75" width="1198.5" height="438.5" rx="27.25" stroke="url(#edge)" stroke-opacity=".55" stroke-width="1.5"/>
 </svg>

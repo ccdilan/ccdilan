@@ -1,10 +1,65 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="g" x1="120" y1="40" x2="1080" y2="320"><stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#C084FC"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="4" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect width="1200" height="360" rx="24" fill="#080B11"/>
-<g stroke="url(#g)" stroke-opacity=".5" stroke-width="1.5"><path d="M120 180H1080"/><path d="M220 80L390 180L220 280"/><path d="M390 180H590L760 80"/><path d="M590 180L760 280"/><path d="M760 80L980 180L760 280"/></g>
-<g fill="#0E1625" stroke="url(#g)" stroke-width="2">
-<rect x="70" y="145" width="100" height="70" rx="16"/><rect x="335" y="145" width="110" height="70" rx="16"/><rect x="535" y="145" width="110" height="70" rx="16"/><rect x="705" y="45" width="110" height="70" rx="16"/><rect x="705" y="245" width="110" height="70" rx="16"/><rect x="930" y="145" width="110" height="70" rx="16"/>
+<svg width="1200" height="470" viewBox="0 0 1200 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="470"><stop stop-color="#090B12"/><stop offset="1" stop-color="#0D1220"/></linearGradient>
+  <linearGradient id="line" x1="250" y1="80" x2="940" y2="390"><stop stop-color="#22D3EE"/><stop offset=".48" stop-color="#8B5CF6"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <radialGradient id="core"><stop stop-color="#8B5CF6" stop-opacity=".38"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+  <style>
+    .orbit { stroke-dasharray: 8 14; animation: dash 13s linear infinite; }
+    .orbit2 { stroke-dasharray: 5 17; animation: dash2 17s linear infinite; }
+    .node { animation: pulse 3.8s ease-in-out infinite; transform-box: fill-box; transform-origin:center; }
+    .node2 { animation: pulse 4.8s ease-in-out infinite 1s; transform-box: fill-box; transform-origin:center; }
+    @keyframes dash { to { stroke-dashoffset:-180; } }
+    @keyframes dash2 { to { stroke-dashoffset:180; } }
+    @keyframes pulse { 0%,100% { opacity:.78; transform:scale(.98); } 50% { opacity:1; transform:scale(1.035); } }
+  </style>
+</defs>
+<rect width="1200" height="470" rx="26" fill="url(#bg)"/>
+<circle cx="600" cy="235" r="176" fill="url(#core)"/>
+<ellipse cx="600" cy="235" rx="420" ry="150" stroke="#334155" stroke-opacity=".55"/>
+<ellipse cx="600" cy="235" rx="330" ry="200" stroke="#334155" stroke-opacity=".42" transform="rotate(-10 600 235)"/>
+<ellipse class="orbit" cx="600" cy="235" rx="420" ry="150" stroke="url(#line)" stroke-width="2"/>
+<ellipse class="orbit2" cx="600" cy="235" rx="330" ry="200" stroke="url(#line)" stroke-opacity=".65" stroke-width="1.5" transform="rotate(-10 600 235)"/>
+
+<g class="node">
+  <rect x="490" y="167" width="220" height="136" rx="26" fill="#111827" stroke="#8B5CF6" stroke-width="2"/>
+  <circle cx="600" cy="218" r="42" fill="#7C3AED" opacity=".18" filter="url(#glow)"/>
+  <circle cx="600" cy="218" r="28" fill="#171126" stroke="#A78BFA" stroke-width="2"/>
+  <path d="M586 218L596 228L616 207" stroke="#22D3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="276" text-anchor="middle" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800">PRODUCT ENGINEERING</text>
 </g>
-<g font-family="Inter,Arial,sans-serif" text-anchor="middle"><g fill="#E5EEF9" font-size="15" font-weight="700"><text x="120" y="186">PRODUCTS</text><text x="390" y="186">APIs</text><text x="590" y="186">SERVICES</text><text x="760" y="86">AI / DATA</text><text x="760" y="286">CLOUD</text><text x="985" y="186">USERS</text></g><g fill="#718096" font-size="11"><text x="120" y="202">web · mobile</text><text x="390" y="202">REST · events</text><text x="590" y="202">business logic</text><text x="760" y="102">knowledge · models</text><text x="760" y="302">deploy · observe</text><text x="985" y="202">people</text></g></g>
-<g filter="url(#b)"><circle cx="170" cy="180" r="3" fill="#38BDF8"><animate attributeName="cx" values="170;335;535;705;930" dur="4s" repeatCount="indefinite"/></circle></g>
+
+<g class="node2">
+  <rect x="90" y="100" width="210" height="82" rx="20" fill="#0F172A" stroke="#22D3EE" stroke-opacity=".75"/>
+  <circle cx="124" cy="141" r="8" fill="#22D3EE"/>
+  <text x="147" y="137" fill="#E2E8F0" font-family="ui-monospace, monospace" font-size="14" font-weight="700">BACKEND</text>
+  <text x="147" y="158" fill="#64748B" font-family="ui-monospace, monospace" font-size="12">Laravel · APIs · Data</text>
+</g>
+<g class="node">
+  <rect x="88" y="294" width="226" height="82" rx="20" fill="#0F172A" stroke="#8B5CF6" stroke-opacity=".75"/>
+  <circle cx="122" cy="335" r="8" fill="#A78BFA"/>
+  <text x="145" y="331" fill="#E2E8F0" font-family="ui-monospace, monospace" font-size="14" font-weight="700">MOBILE + WEB</text>
+  <text x="145" y="352" fill="#64748B" font-family="ui-monospace, monospace" font-size="12">React · Vue · Native</text>
+</g>
+<g class="node2">
+  <rect x="900" y="92" width="214" height="82" rx="20" fill="#0F172A" stroke="#8B5CF6" stroke-opacity=".75"/>
+  <circle cx="934" cy="133" r="8" fill="#A78BFA"/>
+  <text x="957" y="129" fill="#E2E8F0" font-family="ui-monospace, monospace" font-size="14" font-weight="700">CLOUD</text>
+  <text x="957" y="150" fill="#64748B" font-family="ui-monospace, monospace" font-size="12">AWS · Docker · Linux</text>
+</g>
+<g class="node">
+  <rect x="884" y="300" width="238" height="82" rx="20" fill="#0F172A" stroke="#22D3EE" stroke-opacity=".7"/>
+  <circle cx="918" cy="341" r="8" fill="#22D3EE"/>
+  <text x="941" y="337" fill="#E2E8F0" font-family="ui-monospace, monospace" font-size="14" font-weight="700">AI SYSTEMS</text>
+  <text x="941" y="358" fill="#64748B" font-family="ui-monospace, monospace" font-size="12">RAG · Agents · Automation</text>
+</g>
+
+<g opacity=".9">
+  <path d="M300 141C390 145 425 184 490 205" stroke="url(#line)" stroke-width="2"/>
+  <path d="M314 335C405 329 450 296 500 277" stroke="url(#line)" stroke-width="2"/>
+  <path d="M900 133C814 144 766 183 710 205" stroke="url(#line)" stroke-width="2"/>
+  <path d="M884 341C800 329 755 291 700 275" stroke="url(#line)" stroke-width="2"/>
+</g>
+<text x="600" y="424" text-anchor="middle" fill="#64748B" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2">ARCHITECTURE · DELIVERY · RELIABILITY · OBSERVABILITY · SCALE</text>
+<rect x=".75" y=".75" width="1198.5" height="468.5" rx="25.25" stroke="#334155" stroke-opacity=".55" stroke-width="1.5"/>
 </svg>
