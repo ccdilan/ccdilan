@@ -1,0 +1,55 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#070A12"/><stop offset=".55" stop-color="#0B1020"/><stop offset="1" stop-color="#090A12"/></linearGradient>
+  <linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C4B5FD"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+  <linearGradient id="left" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#164E63"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
+  <linearGradient id="right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4C1D95"/><stop offset="1" stop-color="#6D28D9"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .c1{animation:f1 5s ease-in-out infinite}.c2{animation:f2 6.5s ease-in-out infinite}.c3{animation:f3 7s ease-in-out infinite}.grid{stroke-dasharray:7 13;animation:dash 10s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}
+    @keyframes f1{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes f2{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+    @keyframes f3{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    @keyframes dash{to{stroke-dashoffset:-120}} @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  </style>
+</defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="418" rx="23" stroke="#8B5CF6" stroke-opacity=".28"/>
+<text x="60" y="42" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="2">3D CONTRIBUTION WORLD // SYSTEM ACTIVITY</text>
+<text x="1000" y="42" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">LOCAL SVG</text>
+<g transform="translate(600 250)">
+  <path class="grid" d="M-430 40L0-180L430 40L0 260L-430 40Z" stroke="#22D3EE" stroke-opacity=".18" fill="none"/>
+  <path class="grid" d="M-340 40L0-133L340 40L0 213L-340 40Z" stroke="#8B5CF6" stroke-opacity=".2" fill="none"/>
+  <path d="M-430 40L0 260L430 40" stroke="#64748B" stroke-opacity=".12"/>
+  <path d="M0-180V260" stroke="#64748B" stroke-opacity=".12"/>
+
+  <g class="c1" transform="translate(-250 -18)">
+    <path d="M0 0L60-30L120 0L60 30L0 0Z" fill="url(#top)"/>
+    <path d="M0 0L60 30V105L0 75V0Z" fill="url(#left)"/>
+    <path d="M120 0L60 30V105L120 75V0Z" fill="url(#right)"/>
+  </g>
+  <g class="c2" transform="translate(-85 -92)">
+    <path d="M0 0L72-36L144 0L72 36L0 0Z" fill="url(#top)"/>
+    <path d="M0 0L72 36V155L0 119V0Z" fill="url(#left)"/>
+    <path d="M144 0L72 36V155L144 119V0Z" fill="url(#right)"/>
+  </g>
+  <g class="c3" transform="translate(115 -40)">
+    <path d="M0 0L58-29L116 0L58 29L0 0Z" fill="url(#top)"/>
+    <path d="M0 0L58 29V92L0 63V0Z" fill="url(#left)"/>
+    <path d="M116 0L58 29V92L116 63V0Z" fill="url(#right)"/>
+  </g>
+  <g class="c1" transform="translate(250 8)">
+    <path d="M0 0L44-22L88 0L44 22L0 0Z" fill="url(#top)"/>
+    <path d="M0 0L44 22V68L0 46V0Z" fill="url(#left)"/>
+    <path d="M88 0L44 22V68L88 46V0Z" fill="url(#right)"/>
+  </g>
+
+  <g class="pulse" filter="url(#glow)">
+    <circle cx="-190" cy="-70" r="5" fill="#22D3EE"/>
+    <circle cx="-13" cy="-174" r="6" fill="#A78BFA"/>
+    <circle cx="174" cy="-85" r="5" fill="#22D3EE"/>
+    <circle cx="294" cy="-16" r="4" fill="#A78BFA"/>
+  </g>
+</g>
+<g fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11"><text x="88" y="376">LOW</text><text x="548" y="376">ACTIVITY DENSITY</text><text x="1062" y="376">HIGH</text></g>
+</svg>
